@@ -4,18 +4,14 @@ using UnityEngine.UI;
 
 public class MasterInventory : MonoBehaviour {
 
-	ArrayList inv;
-
 	Image[] imageComponents;
 
-	public NamedSprite[] sprites;
-
-	public struct NamedSprite {
+	public struct InvSprite {
 		public string name;
-		public Sprite image;
-		public NamedSprite(string setName, UnityEngine.Sprite setSprite) {
+		public bool show;
+		public InvSprite(string setName, bool setShow) {
 			name = setName;
-			image = setSprite;
+			show = setShow;
 		}
 	}
 
@@ -23,44 +19,67 @@ public class MasterInventory : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		inv = new ArrayList ();
-		sprites [0] = new NamedSprite ("Stapler", Resources.Load<Sprite>("Sprites/Stapler"));
-		sprites [1] = new NamedSprite ("Burrito", Resources.Load<Sprite>("Sprites/Burrito"));
-		sprites [2] = new NamedSprite ("Calculator", Resources.Load<Sprite>("Sprites/Calculaor"));
-		sprites [3] = new NamedSprite ("Coffee Bean", Resources.Load<Sprite>("Sprites/Coffee_Bean"));
-		sprites [4] = new NamedSprite ("Coffee Beans", Resources.Load<Sprite>("Sprites/Coffee_Beans"));
-		sprites [5] = new NamedSprite ("Drive", Resources.Load<Sprite>("Sprites/Drive"));
-		sprites [6] = new NamedSprite ("Ink_Wells", Resources.Load<Sprite>("Sprites/Ink_Wells"));
-		sprites [7] = new NamedSprite ("Light Bulb", Resources.Load<Sprite>("Sprites/Light_Bulb"));
-		sprites [8] = new NamedSprite ("Markers", Resources.Load<Sprite>("Sprites/Markers"));
-		sprites [9] = new NamedSprite ("Milk", Resources.Load<Sprite>("Sprites/Milk"));
-		sprites [10] = new NamedSprite ("Paper", Resources.Load<Sprite>("Sprites/Paper"));
-		sprites [11] = new NamedSprite ("Scissors", Resources.Load<Sprite>("Sprites/Scissors"));
-		sprites [12] = new NamedSprite ("Tiki", Resources.Load<Sprite>("Sprites/Tiki"));
-		sprites [13] = new NamedSprite ("Water Pitcher", Resources.Load<Sprite>("Sprites/Water_Pitcher"));
+		imageComponents = GetComponentsInChildren<Image>();
 	}
 
 	// Update is called once per frame
-	void Update () {
-		int invIndex = 0;
-		imageComponents = this.gameObject.GetComponentsInChildren<Image>();
-		foreach(string obj in inv) {
-			imageComponents[invIndex].sprite = this.getImageByName(obj);
-			invIndex++;
-		}
-	}
+	//void Update () {
+		
+	//}
 
 	public void catchObjToInv (string toAdd) {
-		inv.Add (toAdd);
+		setVisibleByName (toAdd);
 	}
 
-	public Sprite getImageByName(string name) {
-		foreach(NamedSprite sprite in sprites) {
-			if (sprite.name == name) {
-				return sprite.image;
-			}
+	public void setVisibleByName(string name) {
+		print (imageComponents.Length);
+		switch (name) {
+		case "Burrito":
+			imageComponents [0].gameObject.SetActive (true);
+			break;
+		case "Calculator":
+			imageComponents [1].gameObject.SetActive (true);
+			break;
+		case "Coffee Bean":
+			imageComponents [2].gameObject.SetActive (true);
+			break;
+		case "Coffee Beans":
+			imageComponents [3].gameObject.SetActive (true);
+			break;
+		case "Drive":
+			imageComponents [4].gameObject.SetActive (true);
+			break;
+		case "Ink Wells":
+			imageComponents [5].gameObject.SetActive (true);
+			break;
+		case "Light Bulb":
+			imageComponents [6].gameObject.SetActive (true);
+			break;
+		case "Markers":
+			imageComponents [7].gameObject.SetActive (true);
+			break;
+		case "Milk":
+			imageComponents [8].gameObject.SetActive (true);
+			break;
+		case "Paper":
+			imageComponents [9].gameObject.SetActive (true);
+			break;
+		case "Scissors":
+			imageComponents [10].gameObject.SetActive (true);
+			break;
+		case "Stapler":
+			print ("WE ARE ACTIVATING A STAPLER");
+			imageComponents [11].gameObject.SetActive (true);
+			break;
+		case "Tiki":
+			imageComponents [12].gameObject.SetActive (true);
+			break;
+		case "Water Pitcher":
+			imageComponents [13].gameObject.SetActive (true);
+			break;
+		default:
+			print ("You done fucked");
+			break;
 		}
-		print ("You done fucked");
-		return null;
 	}
 }

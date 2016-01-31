@@ -50,6 +50,7 @@
      <Compile Include="Assets\Code Shit\OpenCloseObjectMenu.cs" />
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
      <Compile Include="Assets\ObjPickUp.cs" />
+     <Compile Include="Assets\setVisible.cs" />
      <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
      <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
  <Reference Include="UnityEngine.Networking">
