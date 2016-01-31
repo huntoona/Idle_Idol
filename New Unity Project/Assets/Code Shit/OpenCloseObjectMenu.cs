@@ -8,7 +8,7 @@ public class OpenCloseObjectMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		print ("HelloInit");
+		
 	}
 
 	// Update is called once per frame

@@ -46,14 +46,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Code Shit\AdjacencyMatrix.cs" />
+     <Compile Include="Assets\Code Shit\FireClickEventScript.cs" />
      <Compile Include="Assets\Code Shit\GoToPoint.cs" />
      <Compile Include="Assets\Code Shit\MakeNeighbors.cs" />
      <Compile Include="Assets\Code Shit\MasterInventory.cs" />
+     <Compile Include="Assets\Code Shit\ObjPickUp.cs" />
      <Compile Include="Assets\Code Shit\ObjToInvScript.cs" />
      <Compile Include="Assets\Code Shit\OpenCloseObjectMenu.cs" />
+     <Compile Include="Assets\Code Shit\setVisible.cs" />
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
-     <Compile Include="Assets\ObjPickUp.cs" />
-     <Compile Include="Assets\setVisible.cs" />
      <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
      <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
  <Reference Include="UnityEngine.Networking">

@@ -7,13 +7,15 @@ public class MakeNeighbors : MonoBehaviour {
 
 	void Start () {
 		neighbors = new Dictionary<string, string>();
+		print ("name = " + gameObject.name);
 		switch (gameObject.name) {
 		case "A":
-			neighbors.Add ("up", "B");
+			print ("Adding to dict");
+			neighbors.Add ("right", "B");
 			break;
 		case "B":
 			neighbors.Add ("left", "A");
-			neighbors.Add ("up", "D");
+			neighbors.Add ("right", "D");
 			neighbors.Add ("down", "I");
 			break;
 		case "C":
@@ -24,7 +26,7 @@ public class MakeNeighbors : MonoBehaviour {
 			neighbors.Add ("right", "B");
 			break;
 		case "E":
-			neighbors.Add ("up", "F");
+			neighbors.Add ("left", "F");
 			neighbors.Add ("right", "D");
 			break;
 		case "F":
@@ -49,7 +51,7 @@ public class MakeNeighbors : MonoBehaviour {
 			break;
 		case "K":
 			neighbors.Add ("right", "L");
-			neighbors.Add ("down", "K");
+			neighbors.Add ("down", "J");
 			break;
 		case "L":
 			neighbors.Add ("left", "K");

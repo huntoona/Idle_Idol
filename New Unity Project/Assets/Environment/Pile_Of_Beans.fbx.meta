@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 0f809b1be61ee4069be51c40d89ef024
+timeCreated: 1454245152
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bean
+    100002: Bean1
+    100004: Bean10
+    100006: Bean11
+    100008: Bean12
+    100010: Bean13
+    100012: Bean14
+    100014: Bean15
+    100016: Bean16
+    100018: Bean17
+    100020: Bean18
+    100022: Bean19
+    100024: Bean2
+    100026: Bean20
+    100028: Bean21
+    100030: Bean22
+    100032: Bean23
+    100034: Bean24
+    100036: Bean25
+    100038: Bean26
+    100040: Bean27
+    100042: Bean28
+    100044: Bean29
+    100046: Bean3
+    100048: Bean4
+    100050: Bean5
+    100052: Bean6
+    100054: Bean7
+    100056: Bean8
+    100058: Bean9
+    100060: //RootNode
+    100062: transform1
+    100064: transform10
+    100066: transform11
+    100068: transform12
+    100070: transform13
+    100072: transform14
+    100074: transform15
+    100076: transform16
+    100078: transform17
+    100080: transform18
+    100082: transform19
+    100084: transform2
+    100086: transform20
+    100088: transform21
+    100090: transform22
+    100092: transform23
+    100094: transform24
+    100096: transform25
+    100098: transform26
+    100100: transform3
+    100102: transform4
+    100104: transform5
+    100106: transform6
+    100108: transform7
+    100110: transform8
+    100112: transform9
+    400000: Bean
+    400002: Bean1
+    400004: Bean10
+    400006: Bean11
+    400008: Bean12
+    400010: Bean13
+    400012: Bean14
+    400014: Bean15
+    400016: Bean16
+    400018: Bean17
+    400020: Bean18
+    400022: Bean19
+    400024: Bean2
+    400026: Bean20
+    400028: Bean21
+    400030: Bean22
+    400032: Bean23
+    400034: Bean24
+    400036: Bean25
+    400038: Bean26
+    400040: Bean27
+    400042: Bean28
+    400044: Bean29
+    400046: Bean3
+    400048: Bean4
+    400050: Bean5
+    400052: Bean6
+    400054: Bean7
+    400056: Bean8
+    400058: Bean9
+    400060: //RootNode
+    400062: transform1
+    400064: transform10
+    400066: transform11
+    400068: transform12
+    400070: transform13
+    400072: transform14
+    400074: transform15
+    400076: transform16
+    400078: transform17
+    400080: transform18
+    400082: transform19
+    400084: transform2
+    400086: transform20
+    400088: transform21
+    400090: transform22
+    400092: transform23
+    400094: transform24
+    400096: transform25
+    400098: transform26
+    400100: transform3
+    400102: transform4
+    400104: transform5
+    400106: transform6
+    400108: transform7
+    400110: transform8
+    400112: transform9
+    2300000: Bean26
+    2300002: Bean27
+    2300004: Bean28
+    2300006: Bean29
+    3300000: Bean26
+    3300002: Bean27
+    3300004: Bean28
+    3300006: Bean29
+    4300000: Bean26
+    4300002: Bean27
+    4300004: Bean28
+    4300006: Bean29
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
