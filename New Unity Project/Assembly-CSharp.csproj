@@ -45,6 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code Shit\AdjacencyMatrix.cs" />
+     <Compile Include="Assets\Code Shit\GoToPoint.cs" />
+     <Compile Include="Assets\Code Shit\MakeNeighbors.cs" />
      <Compile Include="Assets\Code Shit\MasterInventory.cs" />
      <Compile Include="Assets\Code Shit\ObjToInvScript.cs" />
      <Compile Include="Assets\Code Shit\OpenCloseObjectMenu.cs" />
