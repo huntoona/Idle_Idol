@@ -5,6 +5,7 @@ public class ObjPickUp : MonoBehaviour {
 
 	public MasterInventory addTo;
 	public OpenCloseObjectMenu item;
+	public string itemName;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,6 @@ public class ObjPickUp : MonoBehaviour {
 	public void fireObjToInv () {
 		print ("Hello");
 		item.disable ();
-		addTo.catchObjToInv(this.gameObject);
+		addTo.catchObjToInv(itemName);
 	}
 }

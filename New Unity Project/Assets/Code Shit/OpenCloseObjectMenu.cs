@@ -32,4 +32,8 @@ public class OpenCloseObjectMenu : MonoBehaviour {
 	public void disable() {
 		this.gameObject.SetActive (false);
 	}
+
+	public void renderSprite() {
+
+	}
 }
