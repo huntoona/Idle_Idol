@@ -45,8 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code Shit\MasterInventory.cs" />
+     <Compile Include="Assets\Code Shit\ObjToInvScript.cs" />
      <Compile Include="Assets\Code Shit\OpenCloseObjectMenu.cs" />
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
+     <Compile Include="Assets\ObjPickUp.cs" />
      <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
      <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
  <Reference Include="UnityEngine.Networking">

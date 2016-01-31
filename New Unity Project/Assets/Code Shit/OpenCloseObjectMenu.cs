@@ -17,17 +17,8 @@ public class OpenCloseObjectMenu : MonoBehaviour {
 		Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 		if(Input.GetMouseButtonDown(0)) {
-			if (Physics.Raycast(ray, out hit)){
-				print ("Hello");
-				//menuItemTop.GetComponent<Renderer> ().enabled = !menuItemTop.GetComponent<Renderer>().enabled;
-				//print (menuItemTop.activeInHierarchy);
+			if (Physics.Raycast(ray, out hit)) {
 				menuItemTop.SetActive (!menuItemTop.activeInHierarchy);
-				/*
-				foreach (GameObject c in menuItems) {
-					print (c.activeInHierarchy);
-					c.SetActive (!c.activeInHierarchy);
-				}
-				*/
 			}
 		}
 		Component halo = this.GetComponent ("Halo");
@@ -36,5 +27,9 @@ public class OpenCloseObjectMenu : MonoBehaviour {
 		} else {
 			halo.GetType ().GetProperty ("enabled").SetValue (halo, false, null);
 		}
+	}
+
+	public void disable() {
+		this.gameObject.SetActive (false);
 	}
 }
