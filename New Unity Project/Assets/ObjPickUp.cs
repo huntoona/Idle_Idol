@@ -19,7 +19,7 @@ public class ObjPickUp : MonoBehaviour {
 
 	public void fireObjToInv () {
 		print ("Hello");
-		item.disable ();
 		addTo.catchObjToInv(itemName);
+		item.disable ();
 	}
 }

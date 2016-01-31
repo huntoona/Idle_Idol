@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: ecc55078457254f3b8d8c7bba038b155
+timeCreated: 1454223256
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bamboo_02:Bamboo_1
+    100002: Bamboo_02:Bamboo_7
+    100004: Bamboo_02:Fake_Dirt
+    100006: Bamboo_02:Leaf
+    100008: Bamboo_02:Leaf1
+    100010: Bamboo_02:Leaf2
+    100012: Bamboo_02:Leaf3
+    100014: Bamboo_02:Leaf4
+    100016: Bamboo_02:Leaf5
+    100018: Bamboo_02:Leaf6
+    100020: Bamboo_02:Leaf7
+    100022: Bamboo_02:pCube1
+    100024: Bamboo_02:polySurface25
+    100026: Bamboo_02:polySurface25 1
+    100028: Bamboo_02:polySurface26
+    100030: Bamboo_02:polySurface27
+    100032: Bamboo_02:polySurface28
+    100034: Bamboo_02:polySurface29
+    100036: Bamboo_02:polySurface30
+    100038: Bamboo_02:polySurface31
+    100040: Bamboo_02:polySurface31 1
+    100042: Bamboo_02:polySurface32
+    100044: Bamboo_02:polySurface45
+    100046: Bamboo_02:polySurface72
+    100048: Bamboo_02:pPlane5
+    100050: Bamboo_02:pTorus1
+    100052: Bamboo_02:pTorus2
+    100054: Bamboo_02:pTorus3
+    100056: Bamboo_02:pTorus4
+    100058: Bamboo_02:pTorus5
+    100060: Bamboo_02:transform1
+    100062: Bamboo_02:transform11
+    100064: Bamboo_02:transform12
+    100066: Bamboo_02:transform13
+    100068: Bamboo_02:transform14
+    100070: Bamboo_02:transform15
+    100072: Bamboo_02:transform16
+    100074: Bamboo_02:transform17
+    100076: Bamboo_02:transform18
+    100078: Bamboo_02:transform19
+    100080: Bamboo_02:transform2
+    100082: Bamboo_02:transform20
+    100084: Bamboo_02:transform21
+    100086: Bamboo_02:transform22
+    100088: Bamboo_02:transform23
+    100090: Bamboo_02:transform24
+    100092: Bamboo_02:transform25
+    100094: Bamboo_02:transform26
+    100096: Bamboo_02:transform27
+    100098: Bamboo_02:transform28
+    100100: Bamboo_02:transform29
+    100102: Bamboo_02:transform3
+    100104: Bamboo_02:transform4
+    100106: Bamboo_02:transform5
+    100108: Bamboo_02:transform6
+    100110: //RootNode
+    400000: Bamboo_02:Bamboo_1
+    400002: Bamboo_02:Bamboo_7
+    400004: Bamboo_02:Fake_Dirt
+    400006: Bamboo_02:Leaf
+    400008: Bamboo_02:Leaf1
+    400010: Bamboo_02:Leaf2
+    400012: Bamboo_02:Leaf3
+    400014: Bamboo_02:Leaf4
+    400016: Bamboo_02:Leaf5
+    400018: Bamboo_02:Leaf6
+    400020: Bamboo_02:Leaf7
+    400022: Bamboo_02:pCube1
+    400024: Bamboo_02:polySurface25
+    400026: Bamboo_02:polySurface25 1
+    400028: Bamboo_02:polySurface26
+    400030: Bamboo_02:polySurface27
+    400032: Bamboo_02:polySurface28
+    400034: Bamboo_02:polySurface29
+    400036: Bamboo_02:polySurface30
+    400038: Bamboo_02:polySurface31
+    400040: Bamboo_02:polySurface31 1
+    400042: Bamboo_02:polySurface32
+    400044: Bamboo_02:polySurface45
+    400046: Bamboo_02:polySurface72
+    400048: Bamboo_02:pPlane5
+    400050: Bamboo_02:pTorus1
+    400052: Bamboo_02:pTorus2
+    400054: Bamboo_02:pTorus3
+    400056: Bamboo_02:pTorus4
+    400058: Bamboo_02:pTorus5
+    400060: Bamboo_02:transform1
+    400062: Bamboo_02:transform11
+    400064: Bamboo_02:transform12
+    400066: Bamboo_02:transform13
+    400068: Bamboo_02:transform14
+    400070: Bamboo_02:transform15
+    400072: Bamboo_02:transform16
+    400074: Bamboo_02:transform17
+    400076: Bamboo_02:transform18
+    400078: Bamboo_02:transform19
+    400080: Bamboo_02:transform2
+    400082: Bamboo_02:transform20
+    400084: Bamboo_02:transform21
+    400086: Bamboo_02:transform22
+    400088: Bamboo_02:transform23
+    400090: Bamboo_02:transform24
+    400092: Bamboo_02:transform25
+    400094: Bamboo_02:transform26
+    400096: Bamboo_02:transform27
+    400098: Bamboo_02:transform28
+    400100: Bamboo_02:transform29
+    400102: Bamboo_02:transform3
+    400104: Bamboo_02:transform4
+    400106: Bamboo_02:transform5
+    400108: Bamboo_02:transform6
+    400110: //RootNode
+    2300000: Bamboo_02:Fake_Dirt
+    2300002: Bamboo_02:polySurface31
+    2300004: Bamboo_02:polySurface45
+    2300006: Bamboo_02:polySurface72
+    3300000: Bamboo_02:Fake_Dirt
+    3300002: Bamboo_02:polySurface31
+    3300004: Bamboo_02:polySurface45
+    3300006: Bamboo_02:polySurface72
+    4300000: Bamboo_02:Fake_Dirt
+    4300002: Bamboo_02:polySurface45
+    4300004: Bamboo_02:polySurface72
+    4300006: Bamboo_02:polySurface31
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
