@@ -14,7 +14,8 @@ public class OpenCloseObjectMenu : MonoBehaviour {
 	// Update is called once per frame
 
 	void Update () {
-		Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
+		//Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
+		Ray ray = playerCamera.ScreenPointToRay(new Vector3(0.5f, 0.5f));
 		RaycastHit hit;
 		if(Input.GetMouseButtonDown(0)) {
 			if (Physics.Raycast(ray, out hit)) {
